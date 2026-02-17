@@ -1,0 +1,17 @@
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/bin/Debug/net8.0/Persistence.deps.json
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/bin/Debug/net8.0/Persistence.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/bin/Debug/net8.0/Persistence.pdb
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/bin/Debug/net8.0/Application.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/bin/Debug/net8.0/Domain.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/bin/Debug/net8.0/Application.pdb
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/bin/Debug/net8.0/Domain.pdb
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/Persistence.csproj.AssemblyReference.cache
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfoInputs.cache
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfo.cs
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/Persistence.csproj.CoreCompileInputs.cache
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/Persistence.csproj.CopyComplete
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/Persistence.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/refint/Persistence.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/Persistence.pdb
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/ref/Persistence.dll

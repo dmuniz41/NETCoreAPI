@@ -1,0 +1,17 @@
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/bin/Debug/net8.0/Presentation.deps.json
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/bin/Debug/net8.0/Presentation.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/bin/Debug/net8.0/Presentation.pdb
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/obj/Debug/net8.0/Presentation.csproj.AssemblyReference.cache
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/obj/Debug/net8.0/Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/obj/Debug/net8.0/Presentation.AssemblyInfoInputs.cache
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/obj/Debug/net8.0/Presentation.AssemblyInfo.cs
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/obj/Debug/net8.0/Presentation.csproj.CoreCompileInputs.cache
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/obj/Debug/net8.0/Presentation.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/obj/Debug/net8.0/refint/Presentation.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/obj/Debug/net8.0/Presentation.pdb
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/obj/Debug/net8.0/ref/Presentation.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/bin/Debug/net8.0/Application.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/bin/Debug/net8.0/Domain.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/bin/Debug/net8.0/Application.pdb
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/bin/Debug/net8.0/Domain.pdb
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/obj/Debug/net8.0/Presentation.csproj.CopyComplete

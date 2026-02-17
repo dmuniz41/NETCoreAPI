@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Domain/Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="14.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions/" />
+    <Folder Include="Abstractions/Messaging/" />
+    <Folder Include="Behaviors/" />
+    <Folder Include="Data/" />
+    <Folder Include="Products/" />
+    <Folder Include="Products/Commands/" />
+    <Folder Include="Products/Commands/CreateProduct/" />
+    <Folder Include="Products/Commands/DeleteProduct/" />
+    <Folder Include="Products/Queries/" />
+    <Folder Include="Products/Queries/GetProductById/" />
+  </ItemGroup>
+
+</Project>

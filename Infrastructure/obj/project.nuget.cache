@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W4TOX7mQPT6kFp4WsSgQrhqVvsn+ECvqAoH1RBqfqPhLvgnPJ1eKxJy6g/IF+c6tf90oEW2WSvEBxNsNX2Nh0w==",
+  "success": true,
+  "projectFilePath": "/home/daniel/Projects/mydotnet8app/myNetCore8API/Infrastructure/Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/home/daniel/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.1/microsoft.extensions.dependencyinjection.10.0.1.nupkg.sha512",
+    "/home/daniel/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.1/microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Domain/bin/Debug/net8.0/Domain.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Domain/bin/Debug/net8.0/Domain.pdb
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Domain/obj/Debug/net8.0/Domain.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Domain/obj/Debug/net8.0/Domain.pdb
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Domain/obj/Debug/net8.0/ref/Domain.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
