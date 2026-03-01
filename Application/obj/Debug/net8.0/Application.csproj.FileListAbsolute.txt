@@ -13,3 +13,4 @@
 /home/daniel/Projects/mydotnet8app/myNetCore8API/Application/obj/Debug/net8.0/refint/Application.dll
 /home/daniel/Projects/mydotnet8app/myNetCore8API/Application/obj/Debug/net8.0/Application.pdb
 /home/daniel/Projects/mydotnet8app/myNetCore8API/Application/obj/Debug/net8.0/ref/Application.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Application/obj/Debug/net8.0/Application.sourcelink.json

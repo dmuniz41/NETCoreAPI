@@ -10,3 +10,4 @@
 /home/daniel/Projects/mydotnet8app/myNetCore8API/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
 /home/daniel/Projects/mydotnet8app/myNetCore8API/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
 /home/daniel/Projects/mydotnet8app/myNetCore8API/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json

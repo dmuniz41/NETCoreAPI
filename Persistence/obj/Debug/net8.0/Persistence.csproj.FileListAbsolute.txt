@@ -15,3 +15,4 @@
 /home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/refint/Persistence.dll
 /home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/Persistence.pdb
 /home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/ref/Persistence.dll
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Persistence/obj/Debug/net8.0/Persistence.sourcelink.json

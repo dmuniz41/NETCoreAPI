@@ -15,3 +15,4 @@
 /home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/bin/Debug/net8.0/Application.pdb
 /home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/bin/Debug/net8.0/Domain.pdb
 /home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/obj/Debug/net8.0/Presentation.csproj.CopyComplete
+/home/daniel/Projects/mydotnet8app/myNetCore8API/Presentation/obj/Debug/net8.0/Presentation.sourcelink.json

@@ -5,6 +5,8 @@ using Persistence.Repositories;
 using Microsoft.Extensions.Configuration;
 using Application.Data;
 using Microsoft.EntityFrameworkCore;
+using Domain.Entities.Users;
+using Microsoft.AspNetCore.Identity;
 
 namespace Persistence;
 
@@ -22,7 +24,17 @@ public static class DependencyInjection
 
         services.AddScoped<IUnitOfWork>(sp =>
             sp.GetRequiredService<ApplicationDbContext>());
+
         services.AddScoped<IProductRepository, ProductRepository>();
+
+        services.AddIdentity<User, IdentityRole<Guid>>(options =>
+       {
+           options.Password.RequireDigit = true;
+           options.Password.RequireLowercase = true;
+           // Configure other options as needed
+       })
+       .AddEntityFrameworkStores<ApplicationDbContext>()
+       .AddDefaultTokenProviders();
 
         return services;
     }

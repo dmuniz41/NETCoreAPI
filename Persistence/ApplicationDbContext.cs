@@ -4,10 +4,13 @@ using Microsoft.EntityFrameworkCore;
 using Application.Data;
 using Domain.Primitives;
 using MediatR;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Domain.Entities.Users;
+using Microsoft.AspNetCore.Identity;
 
 namespace Persistence;
 
-public class ApplicationDbContext : DbContext, IApplicationDbContext, IUnitOfWork
+public class ApplicationDbContext : IdentityDbContext<User, IdentityRole<Guid>, Guid>, IApplicationDbContext, IUnitOfWork
 {
     private readonly IPublisher _publisher;
 
@@ -19,6 +22,7 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext, IUnitOfWor
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
     }
 
