@@ -3,13 +3,12 @@ using Application.Users.Commands.RegisterUser;
 using Application.Users.Commands.UpdateUser;
 using Application.Users.Queries.GetUserByIdQuery;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Presentation.Abstractions;
 
 namespace Presentation.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/users")]
     public class UserController : ApiController
     {
         public UserController(ISender sender) : base(sender)

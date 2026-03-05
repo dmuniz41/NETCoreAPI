@@ -5,10 +5,11 @@ using Application.Products.Commands.DeleteProduct;
 using Application.Products.Queries.GetAllProducts;
 using Presentation.Abstractions;
 using Application.Products.Queries.GetProductById;
+using Application.Products.Commands.UpdateProduct;
 
 namespace Presentation.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/products")]
     public class ProductController : ApiController
     {
 
@@ -18,6 +19,14 @@ namespace Presentation.Controllers
 
         [HttpPost]
         public async Task<IActionResult> RegisterProduct(CreateProductCommand command, CancellationToken cancellationToken)
+        {
+            await Sender.Send(command, cancellationToken);
+
+            return Ok();
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateProduct(UpdateProductCommand command, CancellationToken cancellationToken)
         {
             await Sender.Send(command, cancellationToken);
 
