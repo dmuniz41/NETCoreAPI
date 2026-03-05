@@ -8,12 +8,11 @@ using Application.Products.Queries.GetProductById;
 
 namespace Presentation.Controllers
 {
-    [Route("api/products")]
+    [Route("api/[controller]")]
     public class ProductController : ApiController
     {
 
-        public ProductController(ISender sender)
-                : base(sender)
+        public ProductController(ISender sender) : base(sender)
         {
         }
 

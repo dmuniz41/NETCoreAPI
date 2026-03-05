@@ -32,6 +32,8 @@
     <Folder Include="Products/Commands/DeleteProduct/" />
     <Folder Include="Products/Queries/" />
     <Folder Include="Products/Queries/GetProductById/" />
+    <Folder Include="Users/Commands/RegisterUser/" />
+    <Folder Include="Users/Commands/UpdateUser/" />
   </ItemGroup>
 
 </Project>
