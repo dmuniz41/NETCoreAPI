@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Persistence;
 
-public class ApplicationDbContext : IdentityDbContext<User, IdentityRole<Guid>, Guid>, IApplicationDbContext, IUnitOfWork
+public class ApplicationDbContext : IdentityDbContext<User, AppRole, Guid>, IApplicationDbContext, IUnitOfWork
 {
     private readonly IPublisher _publisher;
 

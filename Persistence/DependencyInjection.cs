@@ -27,11 +27,10 @@ public static class DependencyInjection
 
         services.AddScoped<IProductRepository, ProductRepository>();
 
-        services.AddIdentity<User, IdentityRole<Guid>>(options =>
+        services.AddIdentity<User, AppRole>(options =>
        {
            options.Password.RequireDigit = true;
            options.Password.RequireLowercase = true;
-           // Configure other options as needed
        })
        .AddEntityFrameworkStores<ApplicationDbContext>()
        .AddDefaultTokenProviders();
