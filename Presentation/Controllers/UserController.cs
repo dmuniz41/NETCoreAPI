@@ -13,6 +13,7 @@ using Presentation.Abstractions;
 using Application.Users.Queries.GetUserRoles;
 using Application.Users.Queries.GetAllRoles;
 using Application.Users.Commands.UpdateRole;
+using Application.Users.Commands.DeleteRole;
 
 namespace Presentation.Controllers
 {
@@ -116,12 +117,21 @@ namespace Presentation.Controllers
         {
             var query = new GetRolePermissionsQuery(roleId);
             var result = await Sender.Send(query, cancellationToken);
-            return Ok(result);
+
+            return result.IsSuccess ? Ok(result.Value) : NotFound(result.Error);
         }
 
         [HttpPut("roles/permissions")]
         public async Task<IActionResult> UpdateRolePermissions(UpdateRolePermissionsCommand command, CancellationToken cancellationToken)
         {
+            await Sender.Send(command, cancellationToken);
+            return Ok();
+        }
+
+        [HttpDelete("roles/{roleId:guid}")]
+        public async Task<IActionResult> DeleteRole(Guid roleId, CancellationToken cancellationToken)
+        {
+            var command = new DeleteRoleCommand(roleId);
             await Sender.Send(command, cancellationToken);
             return Ok();
         }
