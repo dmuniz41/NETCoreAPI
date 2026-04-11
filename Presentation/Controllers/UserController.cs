@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 using Presentation.Abstractions;
 using Application.Users.Queries.GetUserRoles;
 using Application.Users.Queries.GetAllRoles;
+using Application.Users.Commands.UpdateRole;
 
 namespace Presentation.Controllers
 {
@@ -116,6 +117,13 @@ namespace Presentation.Controllers
             var query = new GetRolePermissionsQuery(roleId);
             var result = await Sender.Send(query, cancellationToken);
             return Ok(result);
+        }
+
+        [HttpPut("roles/permissions")]
+        public async Task<IActionResult> UpdateRolePermissions(UpdateRolePermissionsCommand command, CancellationToken cancellationToken)
+        {
+            await Sender.Send(command, cancellationToken);
+            return Ok();
         }
     }
 }
